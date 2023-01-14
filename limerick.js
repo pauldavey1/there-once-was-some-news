@@ -1,5 +1,5 @@
 // Note: to run, this extension needs an OpenAI API key. Insert yours inside the single-quotes on line 48.
-// My code is lines 52-138` – the rest is from the OpenAI API, bundled with browserify.
+// My code is lines 52-138 – the rest is from the OpenAI API, bundled with browserify.
 
 (function () {
   function r(e, n, t) {
