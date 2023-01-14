@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "There Once Was Some News",
+  "version": "1.1",
+  "description": "'There once was a browser extension / That could turn news subheds to a mention / It would take the text / And make it quite complex / To create a limerick invention!' — text-davinci-003",
+  "content_scripts": [
+    {
+      "matches": ["https://www.bbc.com/*", "https://www.npr.org/*"],
+      "js": ["./limerick.js"]
+    }
+  ]
+}
